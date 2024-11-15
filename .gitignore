@@ -1,0 +1,99 @@
+# Build directories
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Oo]ut/
+
+# Visual Studio related
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build result files
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.idb
+
+# Temporary project files
+*.tlog
+*.lastbuildstate
+*.ipch
+*.aps
+*.pch
+*.sdf
+*.opensdf
+*.cachefile
+*.log
+
+# Generated files
+*_i.c
+*_p.c
+*.tmp
+*.tmp_proj
+*.obj
+*.o
+
+# NuGet packages
+*.nupkg
+**/[Pp]ackages/
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Backup & report files from converting an old project file
+UpgradeLog*.htm
+UpgradeLog*.XML
+Backup*/
+*.bak
+
+# Additional specific files and directories
+Temp/
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+*.pfx
+*.snk
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+
+# IDE and build system files
+*.sln.docstates
+*.VC.VC.opendb
+
+# Generated documentation
+*.xml
+
+# Other generated binaries or archives
+*.tar.gz
+*.zip
+
+# Ignore specific DLLs and libraries
+zlib1.dll
+SDL2.dll
+SDL2_image.dll
+SDL2_ttf.dll
+libfreetype-6.dll
+libjpeg-9.dll
+libpng16-16.dll
+libtiff-5.dll
+libwebp-4.dll
+
+# Macros and auto-generated files
+*.gch
+*.g.*
+
+# Any additional temp files specific to your environment
+*.pidb
+*.pidb
+
+#untracked files
+level.3.quest.cpp
+
